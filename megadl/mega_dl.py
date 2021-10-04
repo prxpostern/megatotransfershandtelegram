@@ -17,7 +17,7 @@ from hurry.filesize import size
 from megadl.progress import progress_for_pyrogram, humanbytes
 from megadl.forcesub import handle_force_subscribe
 from config import Config
-from file_handler import send_to_transfersh_async, progress
+from megadl.file_handler import send_to_transfersh_async, progress
 
 # Logging
 
