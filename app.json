@@ -1,15 +1,7 @@
 {
-    "name": "MegaDL Bot",
-    "description": "Simple Telegram Bot to download files from Mega.nz",
-    "logo": "https://telegra.ph/file/583f46da57641b90c28f9.png",
-    "keywords": [
-        "megadl",
-        "telegram",
-        "mega.nz bot"
-    ],
-    "website": "https://t.me/safothebot",
-    "repository": "https://github.com/AsmSafone/MegaDL-Bot",
-    "success_url": "https://t.me/AsmSafone",
+    "name": "MegatoTS_TG Bot",
+    "description": "Telegram Bot to download files from Mega.nz",
+    "repository": "https://github.com/prxpostern/megatotransfershandtelegram",
     "env": {
         "API_ID": {
             "description": "Your API_ID from my.telegram.org",
