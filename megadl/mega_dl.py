@@ -72,7 +72,7 @@ async def megadl(bot, message):
     """ upload to transfer.sh """
     try:
         await download_msg.edit(f"**Uploading to transfer.sh ...**")
-        download_link9, final_date9, size9 = await send_to_transfersh_async(magapylol, msg5)
+        download_link9, final_date9, size9 = await send_to_transfersh_async(magapylol, download_msg)
         await download_msg.edit(f"Done! **Link:** \n {download_link9} \n **Size:** {size9}")
     except Exception as e:
         print(e)
