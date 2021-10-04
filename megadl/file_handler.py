@@ -2,7 +2,7 @@ import datetime
 import aiohttp
 import os
 import time
-from download_from_url import get_size, time_formatter
+from megadl.download_from_url import get_size, time_formatter
 
 async def progress(current, total, event, start):
     """Generic progress_callback for both
