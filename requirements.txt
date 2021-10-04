@@ -5,3 +5,4 @@ hurry.filesize
 filetype
 moviepy
 ffmpeg
+aiohttp
