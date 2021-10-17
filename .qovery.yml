@@ -1,0 +1,11 @@
+---
+application:
+  name: "megatotransfer001"
+  project: "megatotransfer"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-megatotransfer"
+  routes:
+  - application_name: "megatotransfer001"
+    paths:
+    - "/*"
