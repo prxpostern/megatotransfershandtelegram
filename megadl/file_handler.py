@@ -40,7 +40,7 @@ async def send_to_transfersh_async(file, message):
     file_name = os.path.basename(file)
 
     print("\nSending file: {} (size of the file: {})".format(file_name, size_of_file))
-    url = 'https://transfer.sh/'
+    url = 'http://transfer.sh/'
     
     with open(file, 'rb') as f:
         async with aiohttp.ClientSession() as session:
